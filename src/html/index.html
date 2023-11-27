@@ -1,26 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <title>Academy</title>
-</head>
-
+@@include ('blocks/head.html')
 <body class="body">
     <header class="page_headder">
         <div class="container">
             <div class="header__inner">
                 <a href="index.html" class="page_headder_logo"><img src="images/logo.svg" alt="Логотип"></a>
                 <nav class="page_headder_nav">
-                    <a href="#" class="page_header_nav_link">Мероприятия</a>
+                    <a href="./events.html" class="page_header_nav_link">Мероприятия</a>
                     <a href="#" class="page_header_nav_link">Блог</a>
                     <a href="#" class="page_header_nav_link">О нас</a>
                     <a href="#" class="page_header_nav_link">Контакты</a>
@@ -262,7 +250,7 @@
                             </div>
                         </button>
                     </div>
-                    <a class="events__endl__text endl-text" href="./events.html"><span>Тут ссылка на страницу мероприятий-></span>Смотреть все</a>
+                    <a class="events__endl__text endl-text" href="./events.html">Смотреть все</a>
                     
                 </div>
             </div>
